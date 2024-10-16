@@ -3,7 +3,7 @@
 }
 /* CSS to change the color of the paragraph */
 #myParagraph {
-    color:rgb(114, 17, 204); /* Change 'blue' to the desired color */
+    color: black; /* Change 'blue' to the desired color */
 }
 #mycol {
     color:rgb(115, 255, 1); /* Change 'blue' to the desired color */
