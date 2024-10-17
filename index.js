@@ -19,8 +19,8 @@ let count = 0
 function de() {
     console.log('status: working........')
     let v = document.getElementById('ba')
-    count = count+1
     v.innerText = count+1
+    count = count+1
 }
 
 function ia() {
