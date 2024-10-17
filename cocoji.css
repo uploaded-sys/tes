@@ -1,0 +1,77 @@
+/* 
+  '.' for classes
+  '#' for ids
+*/
+body {
+  background: mediumpurple;
+}
+#k {
+  background: mediumaquamarine;
+}
+#ma {
+  font-family: monospace;
+  text-align: center;
+  color: rgb(39, 238, 235);
+  font-size: xx-large;
+}
+#ba {
+  font-family: monospace;
+  text-align: center;
+  color: rgb(51, 185, 135);
+  font-size: xx-large;
+}
+
+#greetb{
+    color: rgb(13, 92, 99);
+    text-align: center;
+    background-color: rgb(120, 205, 215);
+    border-color: transparent;
+    padding: auto;;
+    border-left-width: 100px;
+    border-right-width: 100px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    
+    
+}
+#jk{
+  color: rgb(13, 92, 99);
+  text-align: center;
+  background-color: rgb(48, 238, 245);
+  border-color: transparent;
+  padding: auto;
+  border-left-width: 100px;
+  border-right-width: 100px;
+  display: block;
+  margin: auto;
+  margin-bottom:20px;
+  
+}
+#tk{
+  color: rgb(13, 92, 99);
+  text-align: center;
+  background-color: rgb(120, 205, 215);
+  border-color: transparent;
+  padding: auto;;
+  border-left-width: 100px;
+  border-right-width: 100px;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  
+  
+}
+#bk{
+color: rgb(13, 92, 99);
+text-align: center;
+background-color: rgb(51, 185, 135);
+border-color: transparent;
+padding: auto;
+border-left-width: 100px;
+border-right-width: 100px;
+display: block;
+margin: auto;
+margin-bottom:20px;
+
+}
