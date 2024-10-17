@@ -8,7 +8,7 @@ body {
 #k {
   background: mediumaquamarine;
 }
-#ma {
+#head1 {
   font-family: monospace;
   text-align: center;
   color: rgb(39, 238, 235);
@@ -35,7 +35,7 @@ body {
     
     
 }
-#jk{
+#angry{
   color: rgb(13, 92, 99);
   text-align: center;
   background-color: rgb(48, 238, 245);
@@ -62,7 +62,7 @@ body {
   
   
 }
-#bk{
+#minus{
 color: rgb(13, 92, 99);
 text-align: center;
 background-color: rgb(51, 185, 135);

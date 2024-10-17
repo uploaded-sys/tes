@@ -1,17 +1,17 @@
 function ji() {
     console.log('status: working........')
-    let v = document.getElementById('ma')
+    let v = document.getElementById('head1')
     v.innerText = "yo you, im your new friend"
 }
 function reset() {
     console.log('status: working........')
-    let v = document.getElementById('ma')
+    let v = document.getElementById('head1')
     v.innerText = 'test websiite'
 }
 
 function bi() {
     console.log('status: working........')
-    let v = document.getElementById('ma')
+    let v = document.getElementById('head1')
     v.innerText = "ahhaa you bad organisim"
     v.innerText = "you ....... yaaa .... dumb...."
 }
