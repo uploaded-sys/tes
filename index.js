@@ -19,15 +19,15 @@ let count = 0
 function de() {
     console.log('status: working........')
     let v = document.getElementById('ba')
-    v.innerText = count+1
     count = count+1
+    v.innerText = count
 }
 
 function ia() {
     console.log('status: working........')
     let v = document.getElementById('ba')
-    v.innerText = count-1
     count = count-1
+    v.innerText = count
 }
 function reset2() {
     console.log('status: working........')
