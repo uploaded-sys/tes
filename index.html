@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>yest website v2</title>
     <link rel="stylesheet" href="index.css" />
-
   </head>
-  <body>
+  <body onload="fetch_last_data()">
     <script src="quad.js"></script>
     <!-- for intro -->
     <div id="page1">
@@ -31,7 +30,29 @@
       <button onclick="a2()" id="action_btn">Make jiginesh happy</button>
       <button onclick="a3()" id="action_btn">reset converation</button>
     </div>
-    <div id="page4"></div>
-    <div id="page5"></div>
+    <div id="page4">
+      <h1 id="ped">counter</h1>
+      <button onclick="b1()" id="action_btn">increment</button>
+      <button onclick="b2()" id="action_btn">decrement</button>
+      <button onclick="b3()" id="action_btn">reset counter</button>
+      <p>we use your local storge to save your last counter data</p>
+    </div>
+    <div id="page5">
+      <h1 id="crh">credits</h1>
+      <div id="helpers">
+        <h3>our devlopers:</h3>
+        <ul>
+          <li id="al">omm prakash das</li>
+          <li id="bl">amrutansu</li>
+          <li id="cl">premraj</li>
+        </ul>
+      </div>
+      <div id="github">
+        <h3 id='crt'>our github links:</h3>
+        <a id="linkgithub" href="https://github.com/uploaded-sys/tes" target="_blank">github repo</a>
+        <br>
+        <a id="linksd" href="https://github.com/uploaded-sys">github|profile</a>
+      </div>
+    </div>
   </body>
 </html>

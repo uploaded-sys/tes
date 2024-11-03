@@ -79,3 +79,103 @@
     border-radius: 10px;
   }
 }
+#page4 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 10px;
+  h1 {
+    position: relative;
+    left: 30%;
+  }
+  #action_btn {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 10vh;
+    width: 50vw;
+    text-align: center;
+    background-color: #ff595e;
+    border: none;
+    border-radius: 10px;
+  }
+  p {
+    text-align: center;
+    color: #8ac926;
+    font-family: monospace;
+    font-size: 40px;
+    font-weight: 800;
+  }
+}
+#page5 {
+  display: flex;
+  flex-direction: column;
+  #crh {
+    font-family: monospace;
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: monospace;
+  }
+  #crt {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: monospace;
+  }
+  #linkgithub {
+    color: #8ac926;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 40px;
+  }
+  #linkgithub:hover {
+    color: #ffca3a;
+    animation-name: atagani;
+    animation-duration: 1.5s;
+  }
+  #linksd {
+    color: #8ac926;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 40px;
+  }
+  #linksd:hover {
+    color: #ffca3a;
+    animation-name: atagani;
+    animation-duration: 1.5s;
+  }
+
+  ul {
+    font-family: monospace;
+    font-size: 30px;
+  }
+  #al:hover {
+    color: #ffca3a;
+    animation-name: atagani;
+    animation-duration: 1.5s;
+  }
+  #bl:hover {
+    color: #ffca3a;
+    animation-name: atagani;
+    animation-duration: 1.5s;
+  }
+  #cl:hover {
+    color: #ffca3a;
+    animation-name: atagani;
+    animation-duration: 1.5s;
+  }
+}
+@keyframes atagani {
+  0% {
+    padding-left: 50px;
+  }
+  100% {
+    padding-left: 20px;
+  }
+}
