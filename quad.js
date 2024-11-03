@@ -11,7 +11,7 @@ function a2() {
 function a3() {
   console.log("a3 exicuted");
   let p2_ed = document.getElementById("ed");
-  p2_ed.innerText = "HI IM JIGINESH";
+  p2_ed.innerText = "HI IM ANISHNA";
 }
 let counter = Number(localStorage.getItem("lastval"))
 let lsd = localStorage.setItem('lastval',counter)
