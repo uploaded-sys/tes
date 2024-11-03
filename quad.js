@@ -6,7 +6,7 @@ function a1() {
 function a2() {
   console.log("a2 exicuted");
   let p2_ed = document.getElementById("ed");
-  p2_ed.innerText = "OO YOURE SO NICE......";
+  p2_ed.innerText = "thanks for the compliment";
 }
 function a3() {
   console.log("a3 exicuted");
